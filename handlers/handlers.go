@@ -1,11 +1,11 @@
 package handlers
 
 import (
+	"coronaupdates/models"
+	"coronaupdates/utils"
 	"encoding/json"
 	"html/template"
 	"net/http"
-	"weather/models"
-	"weather/utils"
 )
 
 // Hello is a basic handler

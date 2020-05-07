@@ -1,8 +1,8 @@
 package main
 
 import (
+	"coronaupdates/handlers"
 	"net/http"
-	"weather/handlers"
 )
 
 func main() {
