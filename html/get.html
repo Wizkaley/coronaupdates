@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+    </head>
+    <body>
+        <ul>
+        {{range .}}
+            <li>ID {{.ID}} | State {{.Name}} | Cases {{.Cases}} | Recovered {{.Recovered}} | Deaths {{.Deaths}}</li>    
+        {{end}} 
+        </ul>
+    </body>
+</html>
